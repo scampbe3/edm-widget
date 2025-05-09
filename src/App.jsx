@@ -184,7 +184,7 @@ useEffect(() => {
   /* 6.  RENDER                                                     */
   /* -------------------------------------------------------------- */
   if (!current && !stations.length) {
-    return <p className="p-6">No stations found. Try again later.</p>;
+    return <p className="p-6">Radio is loading...</p>;
   }
 
   if (!current) return <p className="p-6">Loading stations…</p>;
