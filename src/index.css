@@ -78,3 +78,10 @@ button:focus-visible {
 
   }
 }
+
+
+:root {
+  background-color: #242424;    /* Tailwind gray-900 */
+  color: #e5e7eb;               /* gray-200 text if you like */
+  color-scheme: dark;           /* dark scrollbars, inputs */
+}
